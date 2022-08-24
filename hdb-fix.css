@@ -10,3 +10,7 @@ input[type="submit" i],
 input[type="reset" i] {
     padding: 1px 6px !important;
 }
+
+#torrent-list th {
+    padding: 5px;
+}
