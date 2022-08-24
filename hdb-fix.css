@@ -1,3 +1,6 @@
+body {
+    font-size: 14px;
+}
 a {
     text-decoration: none;
 }
@@ -12,5 +15,6 @@ input[type="reset" i] {
 }
 
 #torrent-list th {
-    padding: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
