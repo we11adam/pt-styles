@@ -1,8 +1,9 @@
 body {
     font-size: 14px;
 }
-a {
-    text-decoration: none;
+
+a:link, a:visited {
+    text-decoration: none !important;
 }
 
 a:hover {
@@ -12,6 +13,11 @@ a:hover {
 input[type="submit" i],
 input[type="reset" i] {
     padding: 1px 6px !important;
+}
+
+.notification__delete {
+    float: none !important;
+    display: block !important;
 }
 
 th {
