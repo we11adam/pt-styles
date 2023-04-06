@@ -18,6 +18,7 @@ input[type="reset" i] {
 .notification__delete {
     float: none !important;
     display: block !important;
+    text-align: right !important;
 }
 
 th {
