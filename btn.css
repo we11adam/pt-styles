@@ -4605,8 +4605,15 @@ script + .leftbar img {
     margin-top: 15px
 }
 
+.ISO {
+    color: #0e9675 !important;
+}
 
-.TS {
+.VOB {
+    color: #4675ff !important;
+}
+
+.TS, .M2TS {
     color: #ff00c8 !important;
 }
 
@@ -4634,7 +4641,7 @@ script + .leftbar img {
     color: #58ff00 !important;
 }
 
-.None, .\0D\0D\0D {
+.None, .\0D\0D\0D  {
     color: #e89ba0 !important;
 }
 
