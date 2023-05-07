@@ -4652,3 +4652,7 @@ script + .leftbar img {
 .Scene {
     color: #95ccb6 !important;
 }
+
+.tor_highlight_seed{
+    font-weight: bold !important;
+}
