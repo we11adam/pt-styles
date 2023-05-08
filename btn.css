@@ -4653,6 +4653,15 @@ script + .leftbar img {
     color: #95ccb6 !important;
 }
 
-.tor_highlight_seed{
+.tor_highlight_seed {
     font-weight: bold !important;
+}
+
+
+div.scrollContainer > div.panel {
+    height: auto !important;
+}
+
+#slider > div.box.usermenu {
+    display: none;
 }
