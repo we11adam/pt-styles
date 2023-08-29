@@ -278,7 +278,7 @@ body {
     text-align: left;
     line-height: 1.4rem;
     word-wrap: break-word;
-    background: #191d2a url("https://starblaster100.github.io/btn-future/static/btn-bg-overlay.png") repeat top center fixed;
+    background: #191d2a url("https://raw.githubusercontent.com/we11adam/pt-styles/master/btn-bg-overlay.png") repeat top center fixed;
     background-size: 60%;
     margin: 0 auto
 }
