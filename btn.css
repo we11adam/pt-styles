@@ -274,6 +274,10 @@ body pre, body blockquote {
     padding: 15px
 }
 
+body pre {
+    white-space: normal
+}
+
 body {
     text-align: left;
     line-height: 1.4rem;
@@ -303,7 +307,8 @@ blockquote {
     margin: 10px;
     padding: 10px;
     border: 1px dashed #666;
-    border-radius: 3px
+    border-radius: 3px;
+    word-wrap: anywhere
 }
 
 button, input:not([type="file"]) {
@@ -1516,7 +1521,8 @@ strong + .code {
 }
 
 #donation #DonBr {
-    zoom: 1.6
+    transform: scale(1.6);
+    transform-origin: 0 0
 }
 
 #donation #DonInfo a {
@@ -1559,7 +1565,6 @@ strong + .code {
     }
 
     #userinfo #userinfo_username, #userinfo #userinfo_major {
-        flex-basis: 50%;
         justify-content: center
     }
 
@@ -1605,7 +1610,6 @@ strong + .code {
     background-color: #2f2b4c;
     border: 2px solid #373257;
     min-width: 180px;
-    display: none;
     position: absolute;
     top: 100%;
     left: 0;
@@ -2870,7 +2874,7 @@ li img, p img {
 }
 
 #lightbox a, #lightbox img {
-    display: block;
+    display: inline-block;
     max-width: 100%;
     max-height: 100%
 }
@@ -2933,6 +2937,50 @@ html:has(#lightbox[style="display: block;"]) h1, html:has(#lightbox[style="displ
     vertical-align: middle;
     width: 16px;
     height: 16px
+}
+
+.TS {
+    color: #ff00c8
+}
+
+.MPEG {
+    color: #ff0050
+}
+
+.MP4 {
+    color: #be0000
+}
+
+.MKV {
+    color: #ff4100
+}
+
+.M4V {
+    color: #ff6e00
+}
+
+.AVI {
+    color: #ffaf00
+}
+
+.Internal {
+    color: #58ff00
+}
+
+.None, .\0D\0D\0D  {
+    color: #e89ba0
+}
+
+.P2P {
+    color: #ae83cc
+}
+
+.Scene {
+    color: #95ccb6
+}
+
+.User {
+    color: #faf18b
 }
 
 a.permission_15, .permission_15 {
@@ -4604,6 +4652,7 @@ script + .leftbar img {
 #unofficial #post {
     margin-top: 15px
 }
+
 
 .ISO {
     color: #0e9675 !important;
