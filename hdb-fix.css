@@ -20,8 +20,9 @@ input[type="reset" i] {
     display: block !important;
     text-align: right !important;
 }
-.js-notification-delete-all {
-    display: none;
+
+.notification-frame .js-notification-delete-all {
+    display: none !important;
 }
 
 th {
