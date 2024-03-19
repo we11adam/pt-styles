@@ -21,8 +21,13 @@ input[type="reset" i] {
     text-align: right !important;
 }
 
-.notification-frame .js-notification-delete-all {
-    display: none !important;
+.notification-frame {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.notification-frame .notification:first-child {
+    display: none;
 }
 
 th {
